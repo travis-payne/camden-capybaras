@@ -5,11 +5,7 @@
        height="250"/>
 </p>
 
-
-<p align="center">
- <h1>Camden Capybaras</h1>
-</p>
-
+<h1 align="center">Camden Capybaras</h1>
 
 
 ### Tech Stack
