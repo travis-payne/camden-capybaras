@@ -5,6 +5,9 @@
 - Material UI
 - Google Firebase?
 
+### Trello Board (For Devs)
+- https://trello.com/b/FUy7ZL7S/camden-capybara-site
+
 ## Available Scripts
 
 In the project directory, you can run:
