@@ -1,4 +1,16 @@
-# Camden Capybaras Site
+<p align="center">
+  <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/p960x960/36867593_406766949833688_7835883466062299136_o.jpg?_nc_cat=102&_nc_sid=85a577&_nc_ohc=eZLRx0Acq6sAX_72l3f&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=50af4ae90a2aeb31ae4e6ec47a67ab3e&oe=5F2D23E9"
+       alt="Camden Logo"
+       width="250" 
+       height="250"/>
+</p>
+
+
+<p align="center">
+ <h1>Camden Capybaras</h1>
+</p>
+
+
 
 ### Tech Stack
 - React
