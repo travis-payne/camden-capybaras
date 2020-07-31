@@ -10,7 +10,7 @@
 
 ### Tech Stack
 - React
-- Material UI
+- React Bootstrap
 - Google Firebase?
 
 ### Trello Board (For Devs)
