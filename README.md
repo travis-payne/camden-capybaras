@@ -11,7 +11,8 @@
 ### Tech Stack
 - React
 - React Bootstrap
-- Google Firebase?
+- AWS Static Website Hosting (S3)
+- Google Firebase (TBD)
 
 ### Trello Board (For Devs)
 - https://trello.com/b/FUy7ZL7S/camden-capybara-site
