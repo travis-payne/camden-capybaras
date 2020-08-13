@@ -1,15 +1,24 @@
-.jumbotron {
-    min-height: 0px;
-    height:600px;
-    background: url('http://placehold.jp/006699/cccc00/150x100.png') rgb(54, 54, 54) center center no-repeat;
-    background-blend-mode: overlay;
-  }
+.landing {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  object-fit: fill;
+}
 
+.jumbotron {
+  flex:1;
+  max-width: 100%;
+  max-height: 100%;
+  background: url('http://placehold.jp/006699/cccc00/150x100.png') rgb(54, 54, 54) center center repeat;
+  background-blend-mode: overlay;
+  object-fit: fill;
+  }
+  
   .splashText {
     background-color: rgb(54, 54, 54,0.75);
     border-radius: 25px;
     position: relative;
-    top: 50%;
+    top: 35%;
     color: white;
     transform: translateY(-50%);
   }
@@ -20,9 +29,38 @@
 
   .jumboImg {
     width: 50px;
-    height:50px;
+    height: 50px;
   }
 
   .Navbar{
     background-image: radial-gradient(circle, white , #01702a);
   }
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .jumboImg {
+    width: 35px;
+    height:35px;
+  }
+
+}
+
+  /* iPhones */
+  @media only screen and (max-width: 414px) {
+    .jumboImg {
+      width: 32.5px;
+      height:32.5px;
+    }
+  
+  }
+  
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .jumboImg {
+    width: 35px;
+    height:35px;
+  }
+
+}

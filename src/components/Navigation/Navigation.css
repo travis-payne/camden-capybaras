@@ -7,21 +7,22 @@ hr {
     margin: 0;
     min-height: 15px;
 }
-.navbar {
+ .navbar {
     min-height: 0px;
     margin-top: 1.5%;
-    height:100px;
-}
+    height: auto;
+} /*
 .navbar-brand {
     min-height: 0px;
     position: absolute;
     left: 50%;
-    margin-left: -75px !important;  /* 50% of your logo width */
+    margin-left: -75px !important;  /* 50% of your logo width 
     display: block;
-}
+} */
 .navbar-light .navbar-nav .nav-link{
     color: black;
-    font-size: 18px;
+    font-size: 15px;
+    
 
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -31,6 +32,8 @@ hr {
     background-color: white;
     border: 2px solid #555555;
     border-radius: 50px;
+    margin:auto;
+    
 }
 .navButton:hover {
   background-color: #555555;

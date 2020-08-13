@@ -7,26 +7,40 @@ import lgbt from '../../assets/documents/lgbt.pdf';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Splash from '../../components/Splash/splash';
 
 class Navigation extends React.Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      navbarOpen: false
+    };
+  }
+
+  toggleNav = () => {
+    this.setState({navbarOpen: !this.state.navbarOpen});
+  };
+
   render() {
     return (
       <Router>
         <Navbar expand="lg">
-          <Navbar.Brand className="navbar-brand mx-auto" href="/">
-            <img alt="" src={logo} width="150" height="150" className="d-inline-block align-top" /></Navbar.Brand>
-
+        <Navbar.Brand href="#home">
+      <img
+        alt=""
+        src={logo}
+        width="125"
+        height="125"
+        className="d-inline-block align-top"
+      />
+    </Navbar.Brand>
+            <Navbar.Toggle onClick={this.toggleNav} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Button className="mx-2 navButton"><Link className="nav-link" to="/splash">Home</Link></Button>
-            </Nav>
             <Nav className="ml-auto">
-
-              <Button className="navButton">
+              <Button className="navButton" style={{fontSize: 9}}>
                 <NavDropdown title="Club Inclusivity Policies" id="basic-nav-dropdown">                
                     <NavDropdown.Item href={bame} download> BAME Policy</NavDropdown.Item>
                     <NavDropdown.Item href={lgbt} download> LGBTQ+ Policy</NavDropdown.Item>
@@ -47,7 +61,6 @@ class Navigation extends React.Component {
       </Router>
     )
   }
-
 
 }
 
