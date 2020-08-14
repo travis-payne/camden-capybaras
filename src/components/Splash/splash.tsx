@@ -17,13 +17,13 @@ class Splash extends React.Component {
         <h1>Full Site Coming Soon</h1>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item className="mx-4">
-            <Nav.Link href="https://www.facebook.com/CamdenLacrosse/"><img alt="" className="jumboImg" src={facebook}/></Nav.Link>
+            <Nav.Link href="https://www.facebook.com/CamdenLacrosse/"><img alt="Facebook Page" className="jumboImg" src={facebook}/></Nav.Link>
           </Nav.Item>
           <Nav.Item className="mx-4">
-            <Nav.Link href="https://www.instagram.com/camdencapybaras/"><img alt=""  className="jumboImg" src={instagram}/></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/camdencapybaras/"><img alt="Instagram Page"  className="jumboImg" src={instagram}/></Nav.Link>
           </Nav.Item>
           <Nav.Item className="mx-4">
-            <Nav.Link href="mailto:john.white@rutgers.edu"><img alt="" className="jumboImg" src={email}/></Nav.Link>
+            <Nav.Link href="mailto:john.white@rutgers.edu"><img alt="Email Link" className="jumboImg" src={email}/></Nav.Link>
           </Nav.Item>
         </Nav>
         </div>
