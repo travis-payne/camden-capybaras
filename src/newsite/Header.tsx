@@ -12,7 +12,7 @@ import teamphoto from '../assets/teamphoto2.jpg';
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {
-    borderBottom: `1px solid ${theme.palette.divider}`,
+
   },
   toolbarTitle: {
     flex: 1,
@@ -22,7 +22,10 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-between',
     overflowX: 'auto',
     border: '2px solid white',
-    borderRadius: 3,
+    borderRadius: 9,
+    background:'#1e6039',
+
+
   },
   toolbarLink: {
     padding: theme.spacing(1),
