@@ -12,27 +12,24 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(3),
   },
+  container: {
+    background:'#196036',
+  },
 }));
 
 const sections = [
-  { title: 'Technology', url: '#' },
-  { title: 'Design', url: '#' },
-  { title: 'Culture', url: '#' },
-  { title: 'Business', url: '#' },
-  { title: 'Politics', url: '#' },
-  { title: 'Opinion', url: '#' },
-  { title: 'Science', url: '#' },
-  { title: 'Health', url: '#' },
-  { title: 'Style', url: '#' },
-  { title: 'Travel', url: '#' },
+  { title: 'About Us', url: '#' },
+  { title: 'Fixtures', url: '#' },
+  { title: 'Tables', url: '#' },
+  { title: 'Join Us', url: '#' },
+  { title: 'Members', url: '#' },
+  { title: 'Location', url: '#' },
+  { title: 'Contact Us', url: '#' },
 ];
 
 const mainFeaturedPost = {
@@ -63,7 +60,6 @@ const featuredPosts = [
   },
 ];
 
-const posts = [post1, post2, post3];
 
 const sidebar = {
   title: 'About',
@@ -95,7 +91,7 @@ export default function Blog() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container className={classes.container} maxWidth="lg">
         <Header title="adfadf" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
@@ -105,7 +101,7 @@ export default function Blog() {
             ))}
           </Grid>
           <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="From the firehose" posts={posts} />
+            <Main title="From the firehose" posts={['']} />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}

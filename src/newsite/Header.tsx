@@ -21,10 +21,13 @@ const useStyles = makeStyles((theme) => ({
   toolbarSecondary: {
     justifyContent: 'space-between',
     overflowX: 'auto',
+    border: '2px solid white',
+    borderRadius: 3,
   },
   toolbarLink: {
     padding: theme.spacing(1),
     flexShrink: 0,
+    color: 'white'
   },
 }));
 
