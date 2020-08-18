@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 // import Navigation from 'components/Navigation/Navigation';
 import Navigation from 'newsite/Navigation';
 import './App.css';

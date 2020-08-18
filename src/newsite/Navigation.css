@@ -55,16 +55,75 @@
 .aboutUs .left {
   font-family: 'Bebas Neue', serif;
   letter-spacing: 15px;
+  font-size:80px;
+  line-height: normal;
 }
-
-.aboutUs .leRift {
-  font-family: 'Bebas Neue', serif;
-  letter-spacing: 25px;
+.aboutUs .right {
+  font-size: 35px;
+  line-height: normal;
 }
 
 .teamPhoto {
-  height:75%;
+  height:100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.trainingAndMatches {
+  height:80%;
+  margin-top:2.5%;
+  color:#0d4226 ;
+}
+
+.trainingAndMatches h2 {
+  letter-spacing: 15px;
+  font-family: 'Bebas Neue', serif;
+  color:#0d4226 ;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+  .aboutUs .left {
+    letter-spacing: 8px;
+  }
+  .aboutUs .right {
+    font-size: 20px;
+  }
+  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+  .aboutUs .left {
+    letter-spacing: 8px;
+  }
+  .aboutUs .right {
+    font-size: 20px;
+  }
+  
+
 }
