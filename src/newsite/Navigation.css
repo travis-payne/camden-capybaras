@@ -1,0 +1,70 @@
+.navbar {
+  background-color: transparent;
+  
+}
+
+.navlink {
+  color:white !important;
+}
+
+.landing{
+  height: 100%;
+}
+
+.landingNav {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lowerLandingNav {
+  bottom:0;
+  position: absolute;
+  color:white !important;
+  padding: 2.5%;
+}
+
+.lowerLandingNav h1 {
+  font-family: 'Bebas Neue', serif;
+  letter-spacing: 25px;
+}
+
+.lowerLandingNav .left {
+  letter-spacing: 25px;
+  font-weight: lighter;
+}
+
+.lowerLandingNav .right {
+  letter-spacing: 25px;
+  font-weight: lighter;
+  display: inline-table;
+}
+
+.lowerLandingNav .right h3 {
+  border: 5px solid white;
+}
+
+
+.aboutUs {
+  height: 60%;
+  background-color:#0d4226 ;
+  color:white;
+}
+
+.aboutUs .left {
+  font-family: 'Bebas Neue', serif;
+  letter-spacing: 15px;
+}
+
+.aboutUs .leRift {
+  font-family: 'Bebas Neue', serif;
+  letter-spacing: 25px;
+}
+
+.teamPhoto {
+  height:75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
