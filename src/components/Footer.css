@@ -1,0 +1,11 @@
+.footer {
+    background-color:#0d4226 ;
+  }
+  
+  .footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  

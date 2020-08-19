@@ -1,0 +1,60 @@
+.joinUs {
+  height:70%;
+  background-color: #ad985f ;
+  color:white;
+  padding: 2.5%;
+}
+
+.joinUs .left {
+  text-align: center;
+}
+
+.joinUs h2 {
+  letter-spacing: 12.5px;
+  font-family: 'Bebas Neue', serif;
+  color:white ;
+}
+
+.joinUs p{
+  font-size: 20px;
+}
+
+.joinUs .bebas {
+  font-family: 'Bebas Neue', serif;
+}
+  
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .joinUs {
+    height:auto;
+    display: inline-table;
+    padding-bottom: 2.5%;
+  }
+  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+  .joinUs {
+    height:auto;
+    display: inline-table;
+    padding-bottom: 2.5%;
+  }
+  
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .joinUs {
+    height:auto;
+    display: inline-table;
+    padding-bottom: 2.5%;
+  }
+  
+
+}
