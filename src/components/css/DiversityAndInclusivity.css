@@ -1,0 +1,36 @@
+.diversity {
+  height:60%;
+  padding: 2.5%;
+  color:#0d4226 ;
+}
+
+.diversity h1 {
+  letter-spacing: 15px;
+  font-family: 'Bebas Neue', serif;
+  color:#0d4226 ;
+}
+
+.diversity p {
+  font-size: 35px;
+  line-height: normal;
+}
+
+.diversity .left {
+  text-align: center;
+}
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  }
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+  }
+  
+@media only screen and (max-width: 1200px) {
+
+  }

@@ -1,0 +1,95 @@
+.navlink {
+  color:white !important;
+}
+
+.landing{
+  height: 100%;
+}
+
+.landingNav {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lowerLandingNav {
+  bottom:0;
+  position: absolute;
+  color:white !important;
+  padding: 2.5%;
+}
+
+.lowerLandingNav h1 {
+  font-family: 'Bebas Neue', serif;
+  letter-spacing: 25px;
+}
+
+.lowerLandingNav .left {
+  letter-spacing: 25px;
+  font-weight: lighter;
+}
+
+.lowerLandingNav .right {
+  letter-spacing: 25px;
+  font-weight: lighter;
+  display: inline-table;
+}
+
+.lowerLandingNav .right h3 {
+  border: 5px solid white;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+  
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+  
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+
+}
