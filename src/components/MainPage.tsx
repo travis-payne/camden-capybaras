@@ -5,7 +5,7 @@ import JoinUs from 'components/tsx/JoinUs';
 import TrainingAndMatches from 'components/tsx/TrainingAndMatches';
 import Footer from 'components/tsx/Footer';
 import {Element} from 'react-scroll';
-import teamphoto from 'assets/teamphoto.png';
+import teamphoto from '../assets/teamphoto.png';
 import './css/App.css';
 
 class MainPage extends Component {
@@ -17,7 +17,11 @@ class MainPage extends Component {
           <Element className="element"name="aboutUs">
             <AboutUs />
           </Element>
-        <div className="teamPhoto" style={{ backgroundImage: `url(${teamphoto})` }} />
+          <Element className="element">
+        <div className="teamPhoto">
+          <img src={teamphoto} className="img-fluid"/>
+        </div>
+        </Element>
           <Element className="element"name="training">
             <TrainingAndMatches />
           </Element>
