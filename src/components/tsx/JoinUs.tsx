@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import '../css/JoinUs.css';
-
+import facebook from '../../assets/facebook.png';
+import instagram from '../../assets/instagram.png';
 class JoinUs extends Component {
 
   handleSubmit(event) {
@@ -39,6 +40,8 @@ class JoinUs extends Component {
               Rob Hebden
               <br />Sophie Gillibrand
             </p>
+            <a href="https://www.facebook.com/CamdenLacrosse/"><img alt="Facebook Page" src={facebook} /></a>
+                <a href="https://www.instagram.com/camdencapybaras/"><img alt="Instagram Page" src={instagram} /> </a>
           </div>
 
 

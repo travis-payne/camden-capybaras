@@ -9,10 +9,10 @@ class AboutUs extends Component {
       <Container fluid className="aboutUs">
       <Row className="h-100 align-items-center">
         <Col md={6} lg={6} className="left col-md-6 col-lg-6">
-          <p>North London is <br /> Gold and Green</p>
+          <p>North London is <br /> Green and Gold</p>
         </Col>
         <Col md={6} lg={6} className="right col-md-6 col-lg-6">
-          <p> Having the best vibe in London isn't easy.... but someone has to do it 
+          <p> Having the best vibe in London isn't easy.... but someone has to do it. 
               At Camden Capybaras LC we are proud to be the fastest growing SEMLA club 
               with a first team en route to the Premiership, 2Camden2Capybara hot on 
               their heels and Camden Capybaras 3: Tokyo Drift ready to accomodate 
