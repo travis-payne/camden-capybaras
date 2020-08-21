@@ -31,13 +31,13 @@ class JoinUs extends Component {
             <p className="bebas">2nd Team Co-Captains:
             </p>
             <p>Luke Mullery
-              <br />Tisharn "Dickhead" Panglose
+              <br />Tisharn Panglose
             </p>
             <p className="bebas">3rd Team Co-Captains:
             </p>
             <p>
-              Rob "Hot Hands" Hebden
-              <br />Sophie  "I'm gonna be late to training" Gillibrand
+              Rob Hebden
+              <br />Sophie Gillibrand
             </p>
           </div>
 
