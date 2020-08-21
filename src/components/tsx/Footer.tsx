@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import upArrow from 'assets/uparrow.png';
-import './Footer.css';
+import '../css/Footer.css';
 
 class Footer extends Component {
   

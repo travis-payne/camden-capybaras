@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Form, Button} from 'react-bootstrap';
-import './JoinUs.css';
+import {Container, Row, Col} from 'react-bootstrap';
+import '../css/JoinUs.css';
 
 class JoinUs extends Component {
 
@@ -13,7 +13,7 @@ class JoinUs extends Component {
     return (
       <Container fluid className="joinUs">
       <Row className="h-100">
-        <Col md={1} className="left col-md-6 d-flex align-items-center">
+        <Col md={1} className="left col-md-12 ">
           <div>
             <h2>Join Us</h2>
             <p> At Camden we welcome everyone and pride ourselves
@@ -43,7 +43,7 @@ class JoinUs extends Component {
 
 
         </Col>
-        <Col md={1} className="right col-md-6 d-flex align-items-center justify-content-center">
+        {/* <Col md={1} className="right col-md-6 d-flex align-items-center justify-content-center">
           <Form onSubmit={this.handleSubmit}>
             <Form.Row>
               <Form.Group as={Col} controlId="formGridFirstName">
@@ -69,8 +69,8 @@ class JoinUs extends Component {
           </Button>
           </div>
           </Form>
-        </Col>
-      </Row>
+        </Col>*/}
+      </Row> 
     </Container>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import './AboutUs.css';
+import '../css/AboutUs.css';
 
 class AboutUs extends Component {
 
