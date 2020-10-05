@@ -68,6 +68,7 @@ class Navigation extends React.Component {
       smooth: 'easeInOutQuart',
       offset: -100
     });
+    this.setState({ isActive: !this.state.isActive });
   }
 
   homeNav() {
@@ -77,6 +78,7 @@ class Navigation extends React.Component {
         <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('training')}>Training</Nav.Link>
         <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('joinUs')}>Contact Us</Nav.Link>
         <Nav.Link href="/fixtures" className="navlink mx-4"> Fixtures & Tables</Nav.Link>
+        <Nav.Link href="https://docs.google.com/spreadsheets/d/1NDcnR6WFIeoTC6dI5ZkxADxkHVMpP3VdDKd-N6q2FuA/edit?usp=sharing" className="navlink mx-4">Player Stats Database</Nav.Link>
         <Nav.Link href="/diversity" className="navlink mx-4"> D&I Information</Nav.Link>
       </Nav>
     )
