@@ -19,7 +19,7 @@ class MainPage extends Component {
           </Element>
           <Element className="element">
         <div className="teamPhoto">
-          <img src={teamphoto} className="img-fluid"/>
+          <img src={teamphoto} alt="teamPhoto" className="img-fluid"/>
         </div>
         </Element>
           <Element className="element"name="training">

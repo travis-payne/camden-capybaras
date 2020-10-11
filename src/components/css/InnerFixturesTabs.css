@@ -1,0 +1,15 @@
+caption {
+    caption-side: top;
+    font-size: larger;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .nav-tabs {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

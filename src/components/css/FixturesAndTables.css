@@ -1,50 +1,21 @@
-.fixtures {
-  text-align: center;
-  padding: 2.5%;
-  color:#0d4226 ;
-  margin-top:10%;
+#fixtures {
+    padding: 1%;
 }
 
-.fixtures h1 {
-  letter-spacing: 15px;
-  font-family: 'Bebas Neue', serif;
-  color:#0d4226 ;
-}
-
-.fixtures img{
-  width: 200px;
-  height:200px;
-}
-
-
-  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .fixtures h1 {
-    letter-spacing: 15px;
-    font-family: 'Bebas Neue', serif;
-    color:#0d4226 ;
-    font-size:10px
-  }
-  }
-  
+    #fixtures {
+        margin-top: 20%;
+    }
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .fixtures h1 {
-    letter-spacing: 15px;
-    font-family: 'Bebas Neue', serif;
-    color:#0d4226 ;
-    font-size:25px
-  }
+@media only screen and (max-width: 300px) {
+    #fixtures {
+        margin-top: 12.5%;
+    }
+}
 
-  }
-  
-@media only screen and (max-width: 1200px) {
-  .fixtures h1 {
-    letter-spacing: 15px;
-    font-family: 'Bebas Neue', serif;
-    color:#0d4226 ;
-    font-size:35px
-  }
-
-  }
+@media only screen and (max-height: 600px) {
+    #fixtures {
+        margin-top: 7.5%;
+    }
+}
