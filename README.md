@@ -12,6 +12,8 @@
 - React
 - React Bootstrap
 - AWS Static Website Hosting (S3)
+- AWS Route 53
+- AWS CloudFront
 - Google Firebase (TBD)
 
 ### Trello Board (For Devs)

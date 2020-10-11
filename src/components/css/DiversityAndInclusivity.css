@@ -19,18 +19,10 @@
   text-align: center;
 }
 
-
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  .diversity{
+    margin-top:12.5%;
   }
-  
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  
-  }
-  
-@media only screen and (max-width: 1200px) {
 
   }

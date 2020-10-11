@@ -4,7 +4,7 @@ import Navigation from 'components/tsx/Navigation';
 import {Switch,Route,} from "react-router-dom";
 import MainPage from 'components/MainPage';
 import DiversityAndInclusivity from 'components/tsx/DiversityAndInclusivity';
-import FixturesAndTables from 'components/tsx/FixturesAndTables';
+import FixturesAndTables from 'components/tsx/Fixtures/FixturesAndTables';
 
 import paj from './assets/paj.png';
 import 'components/css/App.css';
