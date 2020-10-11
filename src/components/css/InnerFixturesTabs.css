@@ -13,3 +13,14 @@ caption {
         flex-direction: row;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    #fixtures {
+        font-size: small;
+    }
+    .table td,
+    .table th {
+        max-width: 100%;
+        white-space: nowrap;
+    }
+}
