@@ -16,14 +16,14 @@ class Navigation extends React.Component {
 
   constructor(props) {
     super(props);
-    this.showToggleNav = this.showToggleNav.bind(this);
-
+    
     this.state = {
       navColour: props.navBg,
       bg: props.bg,
       navBg: props.navBg,
-      isActive: false
+      navExpanded: false
     };
+
     if (this.state.navBg) {
       this.setState({
         navColour: props.navBg
@@ -31,30 +31,26 @@ class Navigation extends React.Component {
     }
   }
 
-  showToggleNav() {
-    this.setState({ isActive: !this.state.isActive });
- }
-
   listenScrollEvent = e => {
-      if (window.location.pathname === "/") {
+    if (window.location.pathname === "/") {
 
-        if (window.scrollY > 400) {
-          this.setState({
-            navColour: {
-              transition: "background-color 1000ms linear",
-              backgroundColor: "#0d4226"
-            }
-          })
-        } else {
-          this.setState({
-            navColour: {
-              transition: "background-color 1000ms linear",
-              backgroundColor: "transparent"
-            }
-          })
-        }
+      if (window.scrollY > 400) {
+        this.setState({
+          navColour: {
+            transition: "background-color 1000ms linear",
+            backgroundColor: "#0d4226"
+          }
+        })
+      } else {
+        this.setState({
+          navColour: {
+            transition: "background-color 1000ms linear",
+            backgroundColor: "transparent"
+          }
+        })
       }
-    } 
+    }
+  }
 
 
   componentDidMount() {
@@ -68,7 +64,16 @@ class Navigation extends React.Component {
       smooth: 'easeInOutQuart',
       offset: -100
     });
-    this.setState({ isActive: !this.state.isActive });
+    this.closeNav();
+  }
+
+  setNavExpanded(expanded) {
+    this.setState({ navExpanded: expanded });
+
+  }
+
+  closeNav() {
+    this.setState({ navExpanded: false });
   }
 
   homeNav() {
@@ -76,8 +81,8 @@ class Navigation extends React.Component {
       <Nav className="m-auto w-100">
         <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('aboutUs')}>About Us</Nav.Link>
         <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('training')}>Training</Nav.Link>
+        <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('fixtures')}> Fixtures & Tables</Nav.Link>
         <Nav.Link className="navlink mx-4" onClick={() => this.handleClick('joinUs')}>Contact Us</Nav.Link>
-        <Nav.Link href="/fixtures" className="navlink mx-4"> Fixtures & Tables</Nav.Link>
         <Nav.Link href="https://docs.google.com/spreadsheets/d/1NDcnR6WFIeoTC6dI5ZkxADxkHVMpP3VdDKd-N6q2FuA/edit?usp=sharing" className="navlink mx-4">Player Stats Database</Nav.Link>
         <Nav.Link href="/diversity" className="navlink mx-4"> D&I Information</Nav.Link>
       </Nav>
@@ -88,7 +93,6 @@ class Navigation extends React.Component {
     return (
       <Nav className="m-auto w-100">
         <Nav.Link href="/" className="navlink mx-4" onClick={() => this.handleClick('aboutUs')}>Home</Nav.Link>
-        <Nav.Link href="/fixtures" className="navlink mx-4"> Fixtures & Tables</Nav.Link>
         <Nav.Link href="/diversity" className="navlink mx-4"> D&I Information</Nav.Link>
       </Nav>
     )
@@ -96,25 +100,26 @@ class Navigation extends React.Component {
 
   render() {
     let navColour = this.state.navColour;
-     if (this.state.isActive && isMobile ){
-       navColour =  {
+    if (this.state.navExpanded && isMobile) {
+      navColour = {
         backgroundColor: "#0d4226"
       }
-     }
+    }
+
     return (
       <div className="landingNav" style={this.state.bg}>
         <Router>
-          <Navbar style={navColour} fixed="top" expand="lg" >
+          <Navbar onToggle={() => this.setNavExpanded(!this.state.navExpanded)} expanded={this.state.navExpanded} style={navColour} fixed="top" expand="lg" >
             <Navbar.Brand href="/">
               <img
                 alt=""
                 src={logo}
-                width="100"
-                height="100"
+                width="65"
+                height="65"
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>
-            <Navbar.Toggle isActive={this.state.isActive} color="white" onClick={this.showToggleNav} aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
               {window.location.pathname === "/" ? this.homeNav() : this.otherNav()}
               <Nav className="ml-auto">
@@ -134,8 +139,6 @@ class Navigation extends React.Component {
             </Col>
           </Row>
         </Container> : null}
-
-
       </div>
     )
   }

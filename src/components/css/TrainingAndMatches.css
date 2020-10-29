@@ -1,13 +1,14 @@
 .trainingAndMatches {
-  height:60%;
+  height:65%;
   padding: 2.5%;
-  color:#0d4226 ;
+  color:white ;
+  background-color: #ad985f ;
 }
 
 .trainingAndMatches h2 {
   letter-spacing: 15px;
   font-family: 'Bebas Neue', serif;
-  color:#0d4226 ;
+  color:white ;
 }
 
 .trainingAndMatches .left {
