@@ -6,6 +6,8 @@ import TrainingAndMatches from 'components/tsx/TrainingAndMatches';
 import Footer from 'components/tsx/Footer';
 import {Element} from 'react-scroll';
 import teamphoto from '../assets/teamphoto.png';
+import FixturesAndTables from 'components/tsx/Fixtures/FixturesAndTables';
+
 import './css/App.css';
 
 class MainPage extends Component {
@@ -24,6 +26,10 @@ class MainPage extends Component {
         </Element>
           <Element className="element"name="training">
             <TrainingAndMatches />
+          </Element>
+
+          <Element className="element"name="fixtures">
+            <FixturesAndTables />
           </Element>
 
           <Element className="element"name="joinUs">
