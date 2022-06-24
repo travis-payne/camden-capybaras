@@ -7,6 +7,7 @@ import { isMobile } from "react-device-detect";
 import logo from "../../assets/capslogo.png";
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
+import privPolicy from "../../assets/documents/privpolicy.pdf";
 
 import "../css/Navigation.css";
 
@@ -102,7 +103,7 @@ class Navigation extends React.Component {
           {" "}
           D&I Information
         </Nav.Link>
-        <Nav.Link href="/privacy" className="navlink mx-4">
+        <Nav.Link href={privPolicy} download className="navlink mx-4">
           Privacy Policy
         </Nav.Link>
       </Nav>

@@ -23,19 +23,25 @@ class JoinUs extends Component {
                 touch so we can keep you updated and welcome you to the team!
               </p>
               <h2>Contact Us</h2>
-              <p className="bebas">1st Team Co-Captains:</p>
+              <p className="bebas">Womens 1st Team Co-Captains:</p>
+              <p>
+                Francesca Hutt
+                <br />
+                Annabelle Akintoye
+              </p>
+              <p className="bebas">Mens 1st Team Co-Captains:</p>
               <p>
                 Austin Colgate
                 <br />
                 Travis Payne
               </p>
-              <p className="bebas">2nd Team Co-Captains:</p>
+              <p className="bebas">Mens 2nd Team Co-Captains:</p>
               <p>
-                Ross MacDonalds
+                Ross MacDonald
                 <br />
                 Alex Brodie
               </p>
-              <p className="bebas">3rd Team Co-Captains:</p>
+              <p className="bebas"> Mens 3rd Team Co-Captains:</p>
               <p>
                 Rob Hebden
                 <br />
