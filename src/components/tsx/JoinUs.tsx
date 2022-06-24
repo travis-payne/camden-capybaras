@@ -23,7 +23,7 @@ class JoinUs extends Component {
                 touch so we can keep you updated and welcome you to the team!
               </p>
               <h2>Contact Us</h2>
-              <p className="bebas">Womens 1st Team Co-Captains:</p>
+              <p className="bebas">Womens Team Co-Captains:</p>
               <p>
                 Francesca Hutt
                 <br />
