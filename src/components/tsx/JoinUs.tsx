@@ -57,6 +57,7 @@ export const JoinUs = () => {
           </p>
         </div>
         <Form
+          className="form"
           onSubmit={(e) => handleSubmit(e)}
           onChange={(e) => onFormChange(e)}
         >
