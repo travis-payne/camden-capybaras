@@ -1,0 +1,81 @@
+.womensRules {
+  height: 40%;
+  background-color: #ad985f;
+  color: white;
+  padding: 2.5%;
+}
+
+.womensRules .left {
+  font-size: 25px;
+  line-height: normal;
+}
+.womensRules .right {
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 15px;
+  font-size: 80px;
+  line-height: normal;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .lowerLandingNav h1 {
+    letter-spacing: 15px;
+  }
+
+  .lowerLandingNav .left {
+    letter-spacing: 15px;
+  }
+
+  .lowerLandingNav .right {
+    letter-spacing: 15px;
+  }
+  .womensRules {
+    height: auto;
+    display: inline-table;
+  }
+  .womensRules .right {
+    letter-spacing: 8px;
+  }
+  .womensRules .left {
+    font-size: 20px;
+  }
+
+  .trainingAndMatches {
+    height: auto;
+    display: inline-table;
+  }
+
+  .joinUs {
+    height: auto;
+    display: inline-table;
+    padding-bottom: 2.5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .womensRules {
+    height: auto;
+    display: inline-table;
+  }
+  .womensRules .right {
+    letter-spacing: 8px;
+  }
+  .womensRules .left {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .womensRules {
+    height: auto;
+    display: inline-table;
+  }
+  .womensRules .right {
+    letter-spacing: 8px;
+  }
+  .womensRules .left {
+    font-size: 18px;
+  }
+}

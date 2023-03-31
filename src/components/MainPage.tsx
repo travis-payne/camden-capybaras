@@ -9,6 +9,8 @@ import teamphoto from "../assets/teamphoto.png";
 import FixturesAndTables from "components/tsx/Fixtures/FixturesAndTables";
 
 import "./css/App.css";
+import MensRules from "./tsx/MensRules";
+import WomensRules from "./tsx/WomensRules";
 
 class MainPage extends Component {
   render() {
@@ -16,6 +18,12 @@ class MainPage extends Component {
       <div>
         <Element className="element" name="aboutUs">
           <AboutUs />
+        </Element>
+        <Element className="element" name="womensRules">
+          <WomensRules />
+        </Element>
+        <Element className="element" name="mensRules">
+          <MensRules />
         </Element>
         <Element className="element">
           <div className="teamPhoto">
