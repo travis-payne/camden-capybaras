@@ -21,7 +21,9 @@ class MensRules extends Component {
               competitive senior system and even new recruits who are taking
               their first steps into the world of lacrosse, there is something
               for everyone. Coaching is provided by Louis Alhage, former NCAA
-              player and current star of The Fly.
+              player and current star of The Fly. Louis brings his expertise and
+              an infectious energy and enthusiasm to trainings, raising the
+              level of all around him.
             </p>
           </Col>
         </Row>

@@ -15,10 +15,7 @@ class AboutUs extends Component {
           <Col md={6} lg={6} className="right col-md-6 col-lg-6">
             <p>
               Founded in 2018, Camden Lacrosse Club is the fastest growing club
-              in the South of England. In addition to a well-connected North
-              London training location, our match squads and training sessions
-              accommodate players of all abilities. Our socials and stash are
-              the envy of clubs across the country.{" "}
+              in the South of England.
             </p>
             <p>
               In addition to a well connected North London training location our
