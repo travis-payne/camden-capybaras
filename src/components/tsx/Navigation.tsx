@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
+import { Navbar, Container, Nav, Row, Col, NavDropdown } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { isMobile } from "react-device-detect";
@@ -74,12 +74,20 @@ class Navigation extends React.Component {
   homeNav() {
     return (
       <Nav className="m-auto w-100">
-        <Nav.Link
-          className="navlink mx-4"
-          onClick={() => this.handleClick("aboutUs")}
-        >
-          About Us
-        </Nav.Link>
+        <NavDropdown className="navlink mx-4" id={""} title={"About Us"}>
+          <NavDropdown.Item
+            className="nav-link-dropdown mx-4"
+            onClick={() => this.handleClick("mensRules")}
+          >
+            Mens Rules
+          </NavDropdown.Item>
+          <NavDropdown.Item
+            className="nav-link-dropdown  mx-4"
+            onClick={() => this.handleClick("womensRules")}
+          >
+            Womens Rules
+          </NavDropdown.Item>
+        </NavDropdown>
         <Nav.Link
           className="navlink mx-4"
           onClick={() => this.handleClick("training")}
