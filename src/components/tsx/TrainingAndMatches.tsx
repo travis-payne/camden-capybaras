@@ -22,7 +22,7 @@ class TrainingAndMatches extends Component {
 
                 <p>
                   <h5>In-Season</h5>
-                  Mondays 20:00 - 21:30 <br />
+                  Mondays 19:45  - 21:30 <br />
                   University College School Sports Fields <br />
                   Farm Ave <br />
                   London <br />

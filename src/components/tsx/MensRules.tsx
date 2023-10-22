@@ -8,7 +8,7 @@ class MensRules extends Component {
       <Container fluid className="mensRules">
         <Row className="h-100 align-items-center">
           <Col md={6} lg={6} className="left col-md-6 col-lg-6">
-            <p>Mens Team</p>
+            <p>Mens Teams</p>
           </Col>
           <Col md={6} lg={6} className="right col-md-6 col-lg-6">
             <p>
