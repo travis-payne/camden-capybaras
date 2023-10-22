@@ -172,7 +172,7 @@ class Navigation extends React.Component {
                 <Nav.Link href="https://www.facebook.com/CamdenLacrosse/">
                   <img alt="Facebook Page" src={facebook} />
                 </Nav.Link>
-                <Nav.Link href="https://www.instagram.com/camdencapybaras/">
+                <Nav.Link href="https://www.instagram.com/camden_lacrosse/">
                   <img alt="Instagram Page" src={instagram} />
                 </Nav.Link>
               </Nav>
