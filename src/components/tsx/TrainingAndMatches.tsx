@@ -12,16 +12,21 @@ class TrainingAndMatches extends Component {
             <h2>Training & Matches</h2>
             <Row className="h-100">
               <Col md={1} className="left col-md-6 align-self-center">
-                <h3>Training</h3>
                 <p>
-                  <h5>Summer</h5>
-                  Wednesdays 19:00 - 21:00
+                  <h5><b>Summer Training</b> </h5>
+                  <h6> 25th June - 13th August</h6>
+                  <p><b>Tuesday Nights</b></p>
+
+                  Men: 19:00 - 20:00
                   <br />
-                  Regents Park
+                  Women: 20:00 - 21:00
+                  <br />
+                  <br />
+                  Mabley Green - Hackney
                 </p>
 
                 <p>
-                  <h5>In-Season</h5>
+                  <h5><b>In-Season</b></h5>
                   Mondays 19:45  - 21:30 <br />
                   University College School Sports Fields <br />
                   Farm Ave <br />
@@ -30,7 +35,6 @@ class TrainingAndMatches extends Component {
                 </p>
               </Col>
               <Col md={1} className="left col-md-6 align-self-center">
-                <h3>Matches</h3>
 
                 <h5>Mens Home Fixtures:</h5>
                 <p>Middlesex University (The Burroughs, London NW4 4BT)</p>
