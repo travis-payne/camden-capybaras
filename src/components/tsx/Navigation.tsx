@@ -94,13 +94,13 @@ class Navigation extends React.Component {
         >
           Training
         </Nav.Link>
-        <Nav.Link
+        {/* <Nav.Link
           className="navlink mx-4"
           onClick={() => this.handleClick("fixtures")}
         >
           {" "}
           Fixtures & Tables
-        </Nav.Link>
+        </Nav.Link> */}
         <Nav.Link
           className="navlink mx-4"
           onClick={() => this.handleClick("joinUs")}

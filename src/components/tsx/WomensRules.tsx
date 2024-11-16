@@ -6,13 +6,7 @@ import "../css/WomensRules.css";
 const WomensRules: FC = () => {
   const columns: JSX.Element[] = [
     <Col md={6} lg={6} className="left col-md-6 col-lg-6">
-      <p> A true mixed-ability team, this side features international talent,
-         to players who are playing their first ever season of lacrosse - we cater for everyone! Coaching is
-        provided by Rob Ingham Clark, Head of Lacrosse at Stowe School,
-        Assistant Coach of England Box Lacrosse and former Head Coach of Belgium
-        Women 6s and Wales Under-20s. Drawing from his wealth of experience, Rob
-        draws the best out of his players whilst ensuring trainings cater for
-        all.
+      <p> Camden fields two senior teams in SEWLA, with an opportunity to perform and compete for any player. Whether you are a current international player or somebody just starting out on your lacrosse journey, we have a squad for you! Coaching is provided at trainings and matches by England Coach Rob Ingham Clark. 
       </p>
     </Col>,
     <Col md={6} lg={6} className="right col-md-6 col-lg-6">

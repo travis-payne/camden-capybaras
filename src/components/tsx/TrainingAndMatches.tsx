@@ -14,19 +14,12 @@ class TrainingAndMatches extends Component {
               <Col md={1} className="left col-md-6 align-self-center">
                 <p>
                   <h5><b>Summer Training</b> </h5>
-                  <h6> 25th June - 13th August</h6>
-                  <p><b>Tuesday Nights</b></p>
+                  <h6> TBC for 2025 </h6>
 
-                  Men: 19:00 - 20:00
-                  <br />
-                  Women: 20:00 - 21:00
-                  <br />
-                  <br />
-                  Mabley Green - Hackney
                 </p>
 
                 <p>
-                  <h5><b>In-Season</b></h5>
+                  <h5><b>In-Season Training</b></h5>
                   Mondays 19:45  - 21:30 <br />
                   University College School Sports Fields <br />
                   Farm Ave <br />
@@ -36,10 +29,12 @@ class TrainingAndMatches extends Component {
               </Col>
               <Col md={1} className="left col-md-6 align-self-center">
 
-                <h5>Mens Home Fixtures:</h5>
-                <p>Middlesex University (The Burroughs, London NW4 4BT)</p>
-                <h5>Womens Home Fixtures:</h5>
-                <p>The Regent's Park Hub (London NW1 4RU)</p>
+                <h5>Mens + Womens Home Fixtures:</h5>
+                Hendon RFC <br />
+                Greenlands Lane<br />
+                Copthall Playing Fields<br />
+                Hendon, London NW4 1RL
+
               </Col>
             </Row>
           </Col>

@@ -34,9 +34,9 @@ class MainPage extends Component {
           <TrainingAndMatches />
         </Element>
 
-        <Element className="element" name="fixtures">
+        {/* <Element className="element" name="fixtures">
           <FixturesAndTables />
-        </Element>
+        </Element> */}
 
         <Element className="element" name="joinUs">
           <JoinUs />

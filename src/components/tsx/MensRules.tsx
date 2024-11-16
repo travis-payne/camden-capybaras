@@ -12,18 +12,13 @@ class MensRules extends Component {
           </Col>
           <Col md={6} lg={6} className="right col-md-6 col-lg-6">
             <p>
-              Camden Capybaras Lacrosse Club Men’s Rules Section fields three
-              senior men’s teams competing in the SEMLA Premier Division,
-              Division 2, and East (North) respectively. All three teams also
-              compete in the London Local Leagues as well as the Flags
-              Tournament. With players ranging from current England
-              internationals and ex-NCAA starters to BUCS players enjoying the
-              competitive senior system and even new recruits who are taking
-              their first steps into the world of lacrosse, there is something
-              for everyone. Coaching is provided by Louis Alhage, former NCAA
-              player and current star of The Fly. Louis brings his expertise and
-              an infectious energy and enthusiasm to trainings, raising the
-              level of all around him.
+            Camden Capybaras Lacrosse Club Men’s Rules Section fields three senior men’s
+             teams with the 1st team competing in the SEMLA Premier Division, and the 2nd 
+             and 3rd team both in Division 2. All three teams also compete in the London 
+             Local Leagues as well as the Flags Tournament. With players ranging from current 
+             England and Scotland internationals and ex-NCAA starters to BUCS players enjoying 
+             the competitive senior system and even new recruits who are taking their first steps
+              into the world of lacrosse, there is something for everyone. 
             </p>
           </Col>
         </Row>
